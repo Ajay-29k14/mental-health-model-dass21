@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore trained models
+models/
+*.pkl
+
+# Ignore local data
+data/
+*.xlsx
